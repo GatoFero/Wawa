@@ -189,7 +189,7 @@ public class Page {
     private static void setTitle2(){
         switch (Theme.languages){
             case 0:
-                fillTitles("");
+                fillTitles("Holaholaaa, juguemos, chatiemos");
                 break;
             case 1:
                 fillTitles("ef");
