@@ -59,140 +59,140 @@ public class Page {
     private static void setContent8(){
         switch (Theme.languages){
             case 0:
-                fillContents("");
+                fillContents("Las operaciones combinadas son cuando tienes que hacer más de una operación matemática en el mismo problema.", "Las operaciones básicas son suma, resta, multiplicación y división, y las combinadas usan dos o más de estas operaciones al mismo tiempo.", "¡Las operaciones combinadas te ayudan a resolver problemas con más de una operación matemática! Practicar con ejemplos y usar el orden correcto te ayudará a entender mejor cómo resolver estos problemas.");
                 break;
             case 1:
-                fillContents("fef");
+                fillContents("Operaciones combinadaskuna kanki, hukniykuna matemátikata ruwanchik hukniykuna imaykuna hukniykuna ruwananchik.", "Operaciones básicaskuna suma, resta, multiplicación, y divisiónkuna kankichik, combinadaskuna iskay o más imaykuna ruwananchik hukniykuna chaymi.", "¡Operaciones combinadaskuna ñawpaqmi allinmi problemas rikhuykuy hukniykuna matemátikata ruwanchik! Imaykunañam practikuy, yachaykuy chaymi allinmi rikhuy, khushuy.");
                 break;
         }
     }
     private static void setTitle8(){
         switch (Theme.languages){
             case 0:
-                fillTitles("");
+                fillTitles("¿Qué son las operaciones combinadas?", "¿Para que utilizamos la operación combinada", "¿Como funciona?");
                 break;
             case 1:
-                fillTitles("ef");
+                fillTitles("Imataq operaciones combinadaskuna?", "Imataq operaciones combinadakuna ruwananchik?", "Imanraq ruwan?");
                 break;
         }
     }
     private static void setContent7(){
         switch (Theme.languages){
             case 0:
-                fillContents("");
+                fillContents("Las raíces son una manera de encontrar un número que, al multiplicarse por sí mismo un cierto número de veces, da otro número.", "Utilizamos para agrupar cosas en cuadrados, construcción y diseño, resolver problemas matematicos entre mas cosas", "¡Las raíces son útiles para encontrar medidas y resolver problemas cuando trabajamos con grupos y cuadrados! Practicar con ejemplos y ver cómo se aplican en la vida diaria puede hacer que las raíces sean más fáciles de entender y útiles.");
                 break;
             case 1:
-                fillContents("fef");
+                fillContents("Raíceskuna hukninam kanki, hukniykuna hukniykuna chaymi imaykuna kachkanku, chaymi hukniykuna riqsichiy.", "Raíceskuna ruwananchik chaymi cuadradokuna, construcciónkuna, diseño, matemátikakunata rikhuy, allin imaykunañam ruwananchik.", "¡Raíceskuna allinmi rikhuykuy, medidas riqsichiy, problemas matemátikukunata rikhuy, hukniykuna cuadradokunata ruwananchik! Imaykunañam practikuy, yuyachiy chaymi yachaykuy, allinmi rikhuy, khushuy.");
                 break;
         }
     }
     private static void setTitle7(){
         switch (Theme.languages){
             case 0:
-                fillTitles("");
+                fillTitles("¿Qué son las raices?", "¿Para que utilizamos la raiz", "¿Como funciona?");
                 break;
             case 1:
-                fillTitles("ef");
+                fillTitles("Imataq raiceskuna?", "Imataq raícita ruwananchik?", "Imanraq ruwan?");
                 break;
         }
     }
     private static void setContent6(){
         switch (Theme.languages){
             case 0:
-                fillContents("");
+                fillContents("Las potencias son una manera de multiplicar un número por sí mismo varias veces.", "Las potencias nos ayudan a hacer cálculos más rápidos y fáciles cuando necesitamos multiplicar el mismo número muchas veces.", "¡Las potencias te ayudan a hacer cálculos más rápidos y entender cosas más grandes! Practicar con ejemplos y ver cómo se aplican en la vida diaria puede hacer que las potencias sean más fáciles de entender y divertidas."  );
                 break;
             case 1:
-                fillContents("fef");
+                fillContents("Potenciakuna hukniykuna hukniykuna chaymi ñawpaqmi hukniykuna riqsichiy.", "Potenciakuna ñawpaqmi allin chaymi ñawpaqmi cálculos más rápidos y fáciles ruwananchik, hukniykuna riqsichiykuykuna.", "¡Potenciakuna ñawpaqmi allin cálculos más rápidos ruwananchik, hukniykuna riqsichiykuykuna! Imaykunañam practikuy, yuyachiy chaymi sumak rikhuy, khushuy.");
                 break;
         }
     }
     private static void setTitle6(){
         switch (Theme.languages){
             case 0:
-                fillTitles("");
+                fillTitles("¿Qué son las potencias?", "¿Para que utilizamos las potencias", "¿Como funciona?");
                 break;
             case 1:
-                fillTitles("ef");
+                fillTitles("Imataq potenciakuna?", "Imataq potenciakuna ruwananchik?", "Imanraq ruwan?");
                 break;
         }
     }
     private static void setContent5(){
         switch (Theme.languages){
             case 0:
-                fillContents("");
+                fillContents("La división es una operación matemática que usamos para repartir algo en partes iguales.", "Es como compartir un grupo de cosas entre varias personas para que cada una reciba la misma cantidad.", "¡La división es una forma de repartir cosas en partes iguales! Practicar con objetos y ver cómo se agrupan puede ayudarte a entender cómo funciona de manera más clara y divertida." );
                 break;
             case 1:
-                fillContents("fef");
+                fillContents("Divisionqa matemátikata rimaykuymi kanki, huk imaykuna partes igualespi rikhuykuy.", "Chaymi hukniykuna imaykuna, hichaypi runakunata, rikhuykuy, hinam tukuy kankuyki chaymi, hukniykuna kanki.", "¡Divisionqa hukninam imaykuna partes igualespi rikhuykuy! Imaykunañam practikuy, yachaykuy chaymi chaykunata rikhuykuy, allinmi yuyaykuyta yachaykuy, khushuy.");
                 break;
         }
     }
     private static void setTitle5(){
         switch (Theme.languages){
             case 0:
-                fillTitles("");
+                fillTitles("¿Qué son las divisiones?", "¿Para que utilizamos la division", "¿Como funciona?");
                 break;
             case 1:
-                fillTitles("ef");
+                fillTitles("Imataq divisionkuna?", "Imataq divisionta ruwananchik?", "Imanraq ruwan?");
                 break;
         }
     }
     private static void setContent4(){
         switch (Theme.languages){
             case 0:
-                fillContents("");
+                fillContents("La multiplicación es una operación matemática que usamos para encontrar el total cuando agrupamos varias veces el mismo número. Es como sumar el mismo número muchas veces.", "Utilizamos la multiplicación para hacer compras, organizar eventos, jugar juegos entre más cosas", "¡La multiplicación es una forma de sumar el mismo número muchas veces! Puedes practicar con objetos, usar una línea de números y recordar que el orden no importa para hacer la multiplicación más fácil y divertida.");
                 break;
             case 1:
-                fillContents("fef");
+                fillContents("Multiplicaciónqa matemátikata rimaykuymi kanki, imaykunata hatunchayta riqsichiy, hukniykuna hukniykuna chaymi. Ñawpaqmi hukniykuna llapa rikchiy.", "Multiplicaciónta ruwananchik, winaqta usuchiy, eventokunata rikhuy, juegoskunata puriy hina, allin imaykunañam ruwananchik.", "¡Multiplicaciónqa hukninam chaymi hukniykuna llapa riqsichiy! Ñawpaqmi imaykunañam practikuy, números línata usuchiy, yuyachiy chaymi ñawpaqmi rimaykuyta allinmi, khushuy!");
                 break;
         }
     }
     private static void setTitle4(){
         switch (Theme.languages){
             case 0:
-                fillTitles("");
+                fillTitles("¿Qué son las multiplicaciones?", "¿Para que utilizamos la multiplicación", "¿Como funciona?");
                 break;
             case 1:
-                fillTitles("ef");
+                fillTitles("Imataq multiplicaciónkuna?", "Imataq multiplicaciónta ruwananchik?", "Imanraq ruwan?");
                 break;
         }
     }
     private static void setContent3(){
         switch (Theme.languages){
             case 0:
-                fillContents("");
+                fillContents("La resta es como sacar o quitar para ver lo que queda.", "La resta es una herramienta que nos ayuda a saber cuántas cosas quedan cuando quitamos algunas. Usamos la resta en muchas situaciones de nuestra vida diaria.", "La resta es una forma de averiguar cuántas cosas te quedan después de quitar algunas de un grupo. Es como “sacar” cosas y ver lo que queda.");
                 break;
             case 1:
-                fillContents("fef");
+                fillContents("Rimaykuyka rikhuy, hukniykuymi, chaykunata riqsichiy, imaykunañam chaymi.", "Rimaykuyqa, ñawpaqmi imaykunañam chaypi chaykunata riqsichiy, hukniykuy kanki. Rimaykuyta usuchiykuykuchkanchik ñawi killkanku yachaykuykunamanta.", "Rimaykuyqa hukninam kanki, imaykunañam chaypi hukninta riqsichiy, chaykunata rikhuy. Ñawpaqmi 'hukniykuy' hinata, chaymi imaykunañam rikhuy.");
                 break;
         }
     }
     private static void setTitle3(){
         switch (Theme.languages){
             case 0:
-                fillTitles("");
+                fillTitles("¿Que son las restas?", "¿Para que utilizamos las restas?", "¿Como funciona?");
                 break;
             case 1:
-                fillTitles("ef");
+                fillTitles("Imataq rimaykuykuna?", "Imataq rimaykuykuna ruwananchik?", "Imanraq ruwan?");
                 break;
         }
     }
     private static void setContent2(){
         switch (Theme.languages){
             case 0:
-                fillContents("");
+                fillContents("La suma es una operación matemática que usamos para juntar o añadir cosas y saber cuántas hay en total.", "Cuando tienes varios grupos de cosas y quieres saber cuántas hay en total, usas la suma.", "La suma es una manera de juntar cosas para saber cuántas hay en total. Es como contar todo lo que tienes cuando unes grupos de cosas.");
                 break;
             case 1:
-                fillContents("fef");
+                fillContents("Suma kaq matemátikata tarpuq qapariyniyoqmi runasimipi kasqa hukninta hukkuywan waqaychasqa hinallataq chhaynapi imayqallaq hinataq chaypi hatunchay mana willayqallaña.", "Kunaypaq hukninta hukkuywan imayqallaq hinataq chhaypi hatunchay mana willayqallañaqa, sumata wiñayniyuq.", "Sumaqa ñawpaqmi hatuniy imayqallaq hina hinamanta chaypi imayqallaq hinataq chaypi hatunchay mana willayqallaña. Manaraq kayllamanta sutiy kay imayqallañaq nin yuyachikuychikmi imayqallaña hinataq hukninta hukkuywan chaypi.");
                 break;
         }
     }
     private static void setTitle2(){
         switch (Theme.languages){
             case 0:
-                fillTitles("Holaholaaa, juguemos, chatiemos");
+                fillTitles("¿Que son las sumas?", "¿Para que utilizamos las sumas?", "¿Como funciona?");
                 break;
             case 1:
-                fillTitles("ef");
+                fillTitles("Imataq sumakunapaq?", "Imataq sumakunata ruwananchik?", "Imanraq sumakunata ruwananchik?");
                 break;
         }
     }
