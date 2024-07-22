@@ -33,7 +33,6 @@ public class Theme implements ComponentsManager {
     }
 
 
-
     public Theme(Context ctx, ConstraintLayout clt, Page page) {
         this.ctx = ctx;
         this.clt = clt;

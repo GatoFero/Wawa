@@ -101,6 +101,25 @@ public class Questionary implements ComponentsManager {
                 setQuestions1();
                 break;
             case 1:
+                setQuestions2();
+                break;
+            case 2:
+                setQuestions3();
+                break;
+            case 3:
+                setQuestions4();
+                break;
+            case 4:
+                setQuestions5();
+                break;
+            case 5:
+                setQuestions6();
+                break;
+            case 6:
+                setQuestions7();
+                break;
+            case 7:
+                setQuestions8();
                 break;
         }
     }
@@ -129,6 +148,7 @@ public class Questionary implements ComponentsManager {
                 question3 = createQuestions("¿Qué es 15 ÷ (5 - 2)?","A. 5.","B. 7.","C. 10.");
                 question4 = createQuestions("¿Cuánto es (8 - 3) × 2?","A. 10.","B. 12.","C. 14.");
                 question5 = createQuestions("¿Qué es 9 + 4 ÷ 2?","A. 7.","B. 10.","C. 11.");
+                break;
             case 1:
                 question1 = createQuestions("Imata (10 + 2) ÷ 4?","A. 2.","B. 3.","C. 4.");
                 question2 = createQuestions("Imata 6 × 2 + 4?","A. 16.","B. 18.","C. 20.");

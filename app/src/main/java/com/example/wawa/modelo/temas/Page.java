@@ -41,11 +41,37 @@ public class Page {
         content.clear();
         switch (ThemeName.themeSelect){
            case 0:
-               setTheme1();
+               setTitle1();
                setContent1();
                break;
            case 1:
+               setTitle2();
+               setContent2();
                break;
+            case 2:
+                setTitle3();
+                setContent3();
+                break;
+            case 3:
+                setTitle4();
+                setContent4();
+                break;
+            case 4:
+                setTitle5();
+                setContent5();
+                break;
+            case 5:
+                setTitle6();
+                setContent6();
+                break;
+            case 6:
+                setTitle7();
+                setContent7();
+                break;
+            case 7:
+                setTitle8();
+                setContent8();
+                break;
         }
         totalPages = content.size();
     }
@@ -212,15 +238,13 @@ public class Page {
             content.add("Matematikaqa, yanapanakurkan imachus k’ancharinakuna, sayaykuna. Ña rikch’achkanchik k’ancharinakuna, q’iruchanakuna, tusuchanakuna, k’imayllanakuna ñawpa wawqikuna wasinchikpi. Chaynallataraq yachachkanchik ima kastatapas imatakpis ima rikch’achinayan, imatak mana ch’usaykachikunan. Ñuqanchikwan matematika, yanapanakurkan rimanakuy ruwakuywan. Ña ima, wawqiyki, yachachkanchik imatakchus, ñawpaqtaqa wakin k’ancharinakuna, icha paqarincha wasinchikpi, yachachkanchik, matematikawan yanapanakurkan.");
         }
     }
-    private static void setTheme1(){
-        if(Theme.languages == 0){
-            title.add("¿Qué son las Matemáticas?");
-            title.add("Contar, Sumar y Restar");
-            title.add("Usos del día a día");
-        }else if(Theme.languages == 1){
-            title.add("¿Imapaq Kay Matematika?");
-            title.add("Rikch’akuy, Huñukuywan Ch’usaykuy");
-            title.add("Pachakuna Purikuywan");
+    private static void setTitle1(){
+        switch (Theme.languages){
+            case 0:
+                fillTitles("¿Qué son las Matemáticas?","Contar, Sumar y Restar","Usos del día a día");
+                break;
+            case 1:
+                fillTitles("¿Imapaq Kay Matematika?","Rikch’akuy, Huñukuywan Ch’usaykuy","Pachakuna Purikuywan");
         }
     }
 }
